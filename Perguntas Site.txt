@@ -1,0 +1,271 @@
+﻿Briefing do Projeto
+Modding on the Deck
+[Modding on the deck]
+Data/Prazo/Cronograma
+* Data de Início: [02/09/2024]
+* Data de Término: [17/09/2024]
+* Cronograma:
+*  Step1: Aprender detalhadamente sobre a linguagem de HTML
+*  Step2: Formar a base e estrutura do site
+*  Step3: Juntar uma comunidade e começar a fundar fóruns
+Contato
+* Responsável pelo Projeto: [NicoNico]
+* E-mail: [aquele mesmo]
+* Telefone: [sim linda]
+Coleta de Informações
+* Reuniões com Stakeholders: 
+* Objetivo: Entender como outras comunidades de modding estão estruturadas e identificar pontos fortes e fracos.
+Estudar fóruns e sites de modding existentes. Veja quais funcionalidades eles oferecem e como os usuários interagem.
+* Entendimento das Necessidades e Expectativas:
+* Objetivo: Gerar e organizar ideias sobre o projeto.
+* Como Fazer: Usar técnicas de brainstorming para desenvolver ideias sobre a funcionalidade do site e a estrutura dos fóruns. Documente tudo e refine as ideias com base em sua visão e feedback informal.
+________________
+Pesquisa e Análise
+   * Pesquisa de Mercado: 
+   * Identificação de Concorrentes: Liste e analise as principais comunidades e plataformas de modding existentes, como Nexus Mods, ModDB e fóruns especializados.
+   * Critérios de Avaliação:
+   * Funcionalidades: Tipos de fóruns, ferramentas de upload e gerenciamento de mods, sistemas de classificação e feedback.
+   * Usabilidade: Navegação, design e experiência do usuário.
+   * Engajamento: Nível de atividade dos usuários, frequência de postagens e qualidade das discussões.
+Métodos: Navegação nos sites, testes de usabilidade e análise de feedback de usuários.
+   * Análise de Dados: 
+   * Organização dos Dados:
+   * Quantitativos: Importar dados de pesquisas para ferramentas de análise como Excel ou Google Sheets para organização e visualização inicial.
+   * Qualitativos: Transcrever entrevistas e categorizar feedback em temas e tópicos comuns.
+Ferramentas Utilizadas: Planilhas, softwares de análise qualitativa como NVivo, e plataformas de visualização de dados como Tableau.
+
+
+Descrições
+   * Descrição Geral: 
+O projeto visa criar uma plataforma online dedicada ao modding, com o objetivo de construir uma comunidade vibrante e engajada de modders e entusiastas de mods. O site será um hub central para a troca de mods, discussões, e colaboração entre os membros da comunidade. Incluindo fóruns acessíveis, ferramentas para compartilhamento de mods e recursos para facilitar a interação entre os usuários, o projeto buscará fornecer um espaço inovador e inclusivo para todos os interessados em modding.
+   * Descrição Detalhada: 
+1.1 Página Inicial
+Visão Geral: Apresenta uma visão geral da comunidade, com destaques para mods populares, fóruns em evidência e anúncios importantes.
+Características:
+   * Destaques de Mods: Exibição dos mods mais populares e recentes.
+   * Notícias e Atualizações: Seção para atualizações importantes sobre a plataforma e novidades do mundo do modding.
+
+
+2.1 Upload e Gerenciamento de Mods
+Visão Geral: Ferramentas para que os usuários possam enviar e gerenciar seus mods.
+Características:
+   * Upload Simples: Interface amigável para enviar arquivos e adicionar descrições.
+   * Compatibilidade: Suporte para diferentes formatos de mods e jogos.
+   * Sistema de Tags: Adição de tags para facilitar a busca e categorização dos mods.
+
+
+Ajustes
+   * Processo de Ajustes: 
+1.1 Métodos de Coleta:
+Feedback dos Usuários: O feedback é coletado por meio de formulários estruturados, pesquisas de satisfação e fóruns de discussão, permitindo uma captura abrangente das opiniões e sugestões dos usuários.
+Observação de Uso: A análise do comportamento dos usuários na plataforma é conduzida para identificar áreas que necessitam de melhorias ou ajustes.
+1.2 Análise de Dados
+Revisão de Feedback: O feedback coletado é revisado detalhadamente para identificar padrões e temas recorrentes que possam indicar áreas de melhoria.
+Métricas de Uso: As métricas de desempenho da plataforma são analisadas para avaliar a eficácia das funcionalidades atuais e identificar possíveis pontos de falha.
+
+
+Orçamento
+   * Estimativa de Custo: Projeto não financiado
+   * Detalhamento de Custos: Projeto não monetizado
+Métricas
+   * KPIs (Indicadores de Desempenho): 
+      1. Engajamento da Comunidade
+Número de Usuários Ativos: Quantidade de usuários que interagem com a plataforma em um período específico (diário, semanal, mensal).
+Número de Postagens e Comentários: Total de postagens e comentários feitos nos fóruns, indicando o nível de atividade e interação da comunidade.
+2. Crescimento da Comunidade
+Número de Novos Registros: Quantidade de novos usuários que se registram na plataforma em um período específico.
+Taxa de Retenção de Usuários: Percentual de usuários que continuam ativos após um certo período desde o registro.
+3. Qualidade dos Mods
+Número de Mods Enviados: Quantidade total de mods enviados e disponibilizados na plataforma.
+Classificações e Avaliações: Média das classificações dos mods e número de avaliações recebidas, refletindo a qualidade e a satisfação dos usuários com os mods.
+Indicadores de Desempenho: [Descreva outros indicadores importantes para avaliar o progresso]
+Avaliação
+   * Responsável pela Revisão e Aprovação: Eu mesmo, grande Nicolas
+   * Formulário de Feedback: 
+1.1 Métodos de Coleta
+Formulários de Feedback
+   * Descrição: Formulários estruturados disponíveis na plataforma, onde os usuários podem fornecer suas opiniões e sugestões sobre a experiência geral, funcionalidades e qualquer outro aspecto relevante.
+   * Frequência: Disponíveis continuamente, com lembretes periódicos para incentivar a participação.
+Pesquisas de Satisfação
+   * Descrição: Pesquisas enviadas por e-mail ou integradas à plataforma, focadas em avaliar a satisfação dos usuários com a plataforma e identificar áreas de melhoria.
+   * Frequência: Realizadas periodicamente, por exemplo, trimestralmente, para capturar a evolução da satisfação.
+Fóruns de Discussão
+   * Descrição: Seções específicas dos fóruns dedicadas à coleta de feedback, onde os usuários podem discutir abertamente sobre problemas, sugestões e melhorias.
+   * Frequência: Contínua, com tópicos de feedback destacados para facilitar a participação.
+
+
+Objetivos/Metas
+   * Objetivos: 1. Criar uma Comunidade Ativa e Engajada
+Objetivo: Estabelecer uma plataforma vibrante onde entusiastas de modding possam se conectar, compartilhar suas criações e colaborar.
+   * Meta: Atingir um número significativo de usuários ativos, com uma taxa de crescimento consistente.
+   * Medidas de Sucesso: Número de usuários registrados, frequência de participação e interações nos fóruns.
+2. Desenvolver Fóruns Eficientes e Acessíveis
+Objetivo: Implementar fóruns que proporcionem um espaço organizado e intuitivo para discussões e trocas de ideias entre modders.
+   * Meta: Criar seções de fórum bem definidas e implementar um sistema de moderação eficaz para manter a ordem e a relevância das discussões.
+   * Medidas de Sucesso: Qualidade das discussões, número de tópicos criados e engajamento nas seções de fórum.
+3. Facilitar o Compartilhamento e a Descoberta de Mods
+Objetivo: Oferecer uma plataforma intuitiva para que os usuários possam enviar, compartilhar e descobrir mods de forma simples e eficiente.
+   * Meta: Desenvolver uma interface amigável para o upload e busca de mods, com suporte para múltiplos tipos de mods.
+   * Medidas de Sucesso: Volume de mods enviados, número de downloads e busca eficaz através de tags e categorias.
+
+
+
+
+Público-Alvo
+   * Descrição do Público-Alvo: 
+     1. Modders (Criadores de Mods)
+Descrição:
+   * Quem São: Indivíduos que criam e desenvolvem modificações para jogos, adicionando novos conteúdos, funcionalidades ou melhorando aspectos existentes dos jogos.
+   * Necessidades:
+   * Plataforma para compartilhar e distribuir suas criações.
+   * Ferramentas para fácil upload e gerenciamento de mods.
+   * Espaços para colaborar com outros modders e receber feedback sobre seus mods.
+   * Benefícios:
+   * Visibilidade para suas criações.
+   * Oportunidade de colaborar e trocar ideias com outros criadores.
+   * Suporte para promover e melhorar seus mods.
+2. Jogadores (Usuários Finais)
+Descrição:
+   * Quem São: Indivíduos que jogam e utilizam os mods criados por outros, buscando novas experiências e melhorias nos jogos.
+   * Necessidades:
+   * Acesso fácil e intuitivo a mods e conteúdos personalizados.
+   * Sistemas de classificação e comentários para avaliar a qualidade dos mods.
+   * Suporte para resolver problemas e obter informações sobre mods.
+   * Benefícios:
+   * Acesso a uma variedade de mods que aprimoram a experiência de jogo.
+   * Facilitação na descoberta e instalação de mods.
+   * Recursos para avaliar e escolher mods de qualidade.
+3. Comunidade de Entusiastas de Modding
+Descrição:
+   * Quem São: Pessoas interessadas no modding de uma forma mais geral, incluindo aqueles que podem não ser criadores ativos, mas que acompanham as novidades e participam das discussões.
+   * Necessidades:
+   * Espaço para discussões e troca de conhecimentos sobre modding.
+   * Acesso a notícias e atualizações sobre novos mods e tendências.
+   * Benefícios:
+   * Participação em uma comunidade de interesses compartilhados.
+   * Acesso a recursos educacionais e discussões que ampliam seu conhecimento sobre modding.
+4. Desenvolvedores e Publishers de Jogos
+Descrição:
+   * Quem São: Empresas e profissionais que desenvolvem ou publicam jogos e que podem estar interessados em como os mods influenciam a comunidade e a experiência do jogo.
+   * Necessidades:
+   * Informações sobre como os mods estão sendo utilizados e recebidos pelos jogadores.
+   * Feedback sobre como os mods podem impactar a percepção e o sucesso dos jogos.
+   * Benefícios:
+   * Compreensão das tendências e preferências dos jogadores.
+   * Oportunidade de colaboração ou suporte à comunidade de modding para expandir o engajamento com seus jogos.
+
+
+Escopo
+   * Escopo do Projeto: 
+      1. O Que Está Incluído no Projeto
+1.1 Desenvolvimento da Plataforma
+   * Criação e Design da Interface
+   * Desenvolvimento de uma interface amigável e intuitiva para a navegação, upload e download de mods.
+   * Design responsivo para garantir acessibilidade em diferentes dispositivos (desktop, tablet, smartphone).
+   * Fóruns de Discussão
+   * Implementação de fóruns dedicados para discussões sobre mods, colaboração e suporte.
+   * Sistema de moderação para garantir um ambiente seguro e respeitoso.
+   * Sistema de Upload e Gerenciamento de Mods
+   * Funcionalidade para que os usuários possam enviar, gerenciar e compartilhar seus mods.
+   * Categorias e tags para facilitar a organização e a busca por mods.
+   * Recursos Educacionais
+   * Desenvolvimento de tutoriais, guias e documentação para ajudar novos modders a começar e aprimorar suas habilidades.
+   * Suporte ao Usuário
+   * Sistema de suporte técnico para resolver problemas e responder a perguntas dos usuários.
+   * FAQ e central de ajuda para oferecer suporte adicional.
+   * Feedback e Avaliação
+   * Implementação de sistemas para coleta de feedback dos usuários, incluindo pesquisas de satisfação e formulários de sugestões.
+   * Segurança e Moderamento
+   * Medidas de segurança para proteger a plataforma e os dados dos usuários.
+   * Políticas de conduta e mecanismos de denúncia para lidar com comportamentos inadequados.
+1.2 Lançamento e Promoção
+   * Campanha de Lançamento
+   * Estratégias para promover o lançamento da plataforma e atrair novos usuários.
+   * Criação de materiais promocionais, como anúncios e postagens em redes sociais.
+   * Monitoramento e Avaliação
+   * Implementação de KPIs para monitorar o desempenho da plataforma e avaliar o sucesso do projeto.
+2. O Que Está Excluído do Projeto
+2.1 Funcionalidades Adicionais Não Planejadas
+   * Integração com Plataformas Externas
+   * Integrações com plataformas externas, como redes sociais ou sistemas de pagamento, não estão previstas neste estágio inicial do projeto.
+   * Desenvolvimento de Aplicativos Móveis
+   * O desenvolvimento de aplicativos móveis nativos não está incluído. A plataforma será acessível via navegadores móveis.
+2.2 Suporte a Mods para Todos os Jogos
+   * Abrangência de Jogos
+   * O projeto se concentrará em um conjunto específico de jogos para os quais os mods são suportados. O suporte a todos os jogos existentes não está incluído.
+   * Modding Avançado
+   * Funcionalidades avançadas de modding, como criação de mods personalizados complexos, podem ser limitadas. A plataforma inicialmente focará em mods de nível básico a intermediário.
+2.3 Aspectos Legais e Licenças
+   * Licenciamento de Mods
+   * A responsabilidade pelo licenciamento de mods e pela conformidade com direitos autorais é dos criadores dos mods. A plataforma não gerenciará questões legais relacionadas aos mods.
+   * Garantias de Segurança
+   * Embora a segurança da plataforma seja uma prioridade, garantias de segurança absolutas contra todas as ameaças não são viáveis. O foco estará na proteção e monitoramento contínuo.
+2.4 Suporte a Características de Personalização
+   * Personalização Profunda
+   * Características de personalização profundas da plataforma, como temas e configurações extensivas, não estão incluídas no escopo inicial.
+
+
+Requisitos
+   * Requisitos Funcionais: 
+     1. Criação e Design da Interface
+   * 1.1 Navegação Intuitiva
+   * A interface deve permitir fácil navegação entre diferentes seções da plataforma, incluindo fóruns, upload de mods e recursos educativos.
+   * 1.2 Design Responsivo
+   * A plataforma deve ser acessível e funcional em diferentes dispositivos, como desktops, tablets e smartphones.
+2. Sistema de Fórum
+   * 2.1 Criação e Gerenciamento de Tópicos
+   * Usuários devem poder criar, editar e excluir tópicos de discussão em fóruns específicos.
+   * 2.2 Sistema de Respostas e Comentários
+   * Usuários devem poder responder a tópicos e deixar comentários, com opções para edição e exclusão.
+   * 2.3 Moderação
+   * Implementar ferramentas de moderação para gerenciar e revisar conteúdo, incluindo a capacidade de ocultar ou remover posts impróprios.
+3. Sistema de Upload e Gerenciamento de Mods
+   * 3.1 Upload de Mods
+   * Usuários devem poder enviar mods para a plataforma, incluindo a capacidade de adicionar descrições, tags e imagens.
+   * 3.2 Gerenciamento de Mods
+   * Criadores de mods devem ter acesso a uma interface para gerenciar seus mods enviados, incluindo edição e exclusão.
+   * 3.3 Busca e Filtragem
+   * Implementar funcionalidades de busca e filtragem para que os usuários possam encontrar mods com base em categorias, tags e palavras-chave.
+
+
+   * Requisitos Técnicos: 
+     1. Infraestrutura e Hospedagem
+   * 1.1 Servidor Web
+   * Um servidor web confiável para hospedar a plataforma, com capacidade para lidar com o tráfego esperado e garantir alta disponibilidade.
+   * 1.2 Banco de Dados
+   * Banco de dados robusto para armazenar informações sobre usuários, mods, fóruns, e feedback. Pode incluir SQL (MySQL, PostgreSQL) ou NoSQL (MongoDB).
+   * 1.3 Backup e Recuperação
+   * Sistema de backup regular para garantir a recuperação de dados em caso de falhas ou perda de dados.
+2. Desenvolvimento e Framework
+   * 2.1 Linguagens de Programação
+   * Linguagens para desenvolvimento backend (por exemplo, PHP, Python, Node.js) e frontend (por exemplo, HTML, CSS, JavaScript).
+   * 2.2 Frameworks e Bibliotecas
+   * Utilização de frameworks e bibliotecas para agilizar o desenvolvimento, como React, Angular ou Vue.js para frontend, e Express.js ou Django para backend.
+   * 2.3 Sistema de Gerenciamento de Conteúdo (CMS)
+   * Opcional, mas pode ser considerado para facilitar a gestão de conteúdo, dependendo da complexidade da plataforma.
+3. Funcionalidades da Plataforma
+   * 3.1 Sistema de Autenticação e Autorização
+   * Implementar autenticação segura (login, registro) e autorização (controle de acesso a diferentes seções da plataforma).
+   * 3.2 Sistema de Upload e Armazenamento de Arquivos
+   * Funcionalidade para upload de arquivos (mods) e armazenamento eficiente, com suporte para diferentes tipos de arquivos.
+   * 3.3 APIs e Integrações
+   * APIs para integração com ferramentas externas, como sistemas de análise e serviços de pagamento, se necessário.
+
+
+Restrições
+   * Restrições: 
+    1. Limitações Orçamentárias
+   * 1.1 Recursos Financeiros
+   * Descrição: O orçamento limitado pode restringir a capacidade de investir em tecnologias avançadas, ferramentas de desenvolvimento ou contratar profissionais especializados.
+   * Impacto: Pode limitar a complexidade das funcionalidades implementadas e o escopo do projeto.
+2. Restrições de Tempo
+   * 2.1 Cronograma
+   * Descrição: O prazo definido para o desenvolvimento e lançamento da plataforma pode impactar a quantidade de funcionalidades que podem ser incluídas na versão inicial.
+   * Impacto: Pode resultar em um lançamento com um conjunto reduzido de funcionalidades, com a necessidade de implementação de melhorias e novas funcionalidades em fases posteriores.
+3. Limitações Técnicas
+   * 3.1 Capacidades do Servidor
+   * Descrição: As especificações e capacidades do servidor utilizado para hospedar a plataforma podem limitar o número de usuários simultâneos e o volume de dados processados.
+   * Impacto: Pode exigir uma otimização constante para garantir o desempenho e a escalabilidade da plataforma.
+   * 3.2 Compatibilidade
+   * Descrição: Garantir que a plataforma seja compatível com todos os navegadores e dispositivos pode ser desafiador.
+   * Impacto: Pode resultar em uma experiência de usuário inconsistente em diferentes navegadores ou dispositivos.
