@@ -1,0 +1,562 @@
+/* Estilos globais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #f0f0f5;
+    color: #333;
+    text-align: center;
+}
+
+/* Cabeçalho principal */
+.main-header {
+    position: relative;
+    height: 60vh;
+    background-color: #1a1a1d;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.main-header h1 {
+    font-size: 4rem;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    z-index: 1;
+    margin-bottom: 20px;
+}
+
+.header-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.5;
+}
+
+.search-bar {
+    margin-top: 20px;
+}
+
+.search-bar input {
+    padding: 10px;
+    width: 50%;
+    font-size: 1.2rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.search-bar button {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    background-color: #ff6600;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.search-bar button:hover {
+    background-color: #ff5500;
+}
+
+
+.fab {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 60px;
+    height: 60px;
+    background-color: #ff6600;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.fab:hover {
+    background-color: #ff5500;
+}
+
+.fab img {
+    width: 30px;
+    height: 30px;
+}
+
+/* Modal de Login */
+.modal {
+    display: none; /* Oculto por padrão */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+}
+
+.modal-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 300px;
+}
+
+.modal-content h2 {
+    margin-bottom: 20px;
+}
+
+.modal-content input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.modal-content button {
+    width: 100%;
+    padding: 10px;
+    background-color: #ff6600;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.modal-content button:hover {
+    background-color: #ff5500;
+}
+
+.modal-content p {
+    margin-top: 10px;
+}
+
+.modal-content a {
+    color: #ff6600;
+    text-decoration: none;
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 24px;
+    color: black;
+    cursor: pointer;
+}
+
+/* Sugestões */
+.suggestions {
+    padding: 40px 0;
+    background-color: #f9f9f9;
+}
+
+.suggestions-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    position: relative;
+    height: 150px; /* Ajuste conforme o tamanho das imagens */
+}
+
+.suggestion-link {
+    display: inline-block;
+    position: relative;
+    width: 200px;
+    height: 150px;
+    overflow: hidden;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Adiciona transições suaves */
+}
+
+.suggestion-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    opacity: 1;
+    transition: opacity 1s ease;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.suggestion-image.fade-out {
+    opacity: 0;
+}
+
+.suggestion-image.fade-in {
+    opacity: 1;
+}
+
+/* Efeito de inclinação e aumento ao passar o mouse */
+.suggestion-link:hover {
+    transform: scale(1.05) rotateX(5deg) rotateY(5deg); /* Aumenta o tamanho e inclina a imagem */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Adiciona uma sombra para realçar o efeito */
+}
+
+/* Contate-Nos */
+#contact-us {
+    padding: 40px 20px;
+    background-color: #f2f2f2;
+    text-align: center;
+}
+
+.contact-container {
+    max-width: 600px;
+    margin: 0 auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-container h2 {
+    margin-bottom: 20px;
+    font-size: 2em;
+    color: #333;
+}
+
+.contact-container p {
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.contact-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-container label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+.contact-container input, 
+.contact-container textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+}
+
+.contact-container button {
+    padding: 10px 15px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-container button:hover {
+    background-color: #0056b3;
+}
+
+body.light-mode {
+    background-color: #f0f0f5;
+    color: #333;
+}
+
+.main-header {
+    background-color: #1a1a1d;
+    color: #fff;
+}
+
+/* Modo Escuro */
+body.dark-mode {
+    background-color: #333;
+    color: #f0f0f5;
+}
+
+body.dark-mode .main-header {
+    background-color: #444;
+}
+
+body.dark-mode .search-bar input,
+body.dark-mode .modal-content input,
+body.dark-mode .contact-container input,
+body.dark-mode .contact-container textarea {
+    background-color: #555;
+    color: #f0f0f5;
+    border: 1px solid #666;
+}
+
+body.dark-mode .modal-content button,
+body.dark-mode .contact-container button {
+    background-color: #666;
+}
+
+body.dark-mode .modal-content button:hover,
+body.dark-mode .contact-container button:hover {
+    background-color: #777;
+}
+
+/* Outras regras de estilo para o modo escuro */
+body.dark-mode .suggestion-link {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+}
+
+body.dark-mode .suggestion-image {
+    border-radius: 10px;
+    opacity: 0.9;
+}
+
+/* Estilos do tooltip */
+.suggestion-link {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.suggestion-link::after {
+    content: attr(data-tooltip);
+    visibility: hidden;
+    width: 160px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px;
+    position: absolute;
+    bottom: 125%; /* Posição acima do elemento */
+    left: 50%;
+    margin-left: -80px; /* Ajusta para centralizar o tooltip */
+    opacity: 0;
+    transition: opacity 0.3s;
+    font-size: 0.9rem;
+    z-index: 1;
+}
+
+.suggestion-link:hover::after {
+    visibility: visible;
+    opacity: 1;
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.service-item {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Container do Switch */
+.theme-switch-container {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    z-index: 1000; /* Para garantir que fique acima de outros elementos */
+}
+
+/* Estilo do switch */
+.theme-switch {
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    position: relative;
+}
+
+.theme-switch input {
+    display: none; /* Escondemos o input padrão */
+}
+
+/* Slider do switch */
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    transition: 0.4s;
+    border-radius: 34px;
+}
+
+/* A "bolinha" do slider */
+.slider::before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    transition: 0.4s;
+    border-radius: 50%;
+}
+
+/* Modo escuro - posição do toggle quando ativado */
+input:checked + .slider {
+    background-color: #ff6600;
+}
+
+/* Modo escuro - posição da bolinha quando ativado */
+input:checked + .slider::before {
+    transform: translateX(26px);
+}
+
+/* Estilo responsivo para tamanhos menores */
+@media (max-width: 600px) {
+    .theme-switch-container {
+        bottom: 10px;
+        left: 10px;
+    }
+    
+    .theme-switch {
+        width: 50px;
+        height: 28px;
+    }
+    
+    .slider::before {
+        height: 22px;
+        width: 22px;
+    }
+}
+
+body.dark-mode {
+    background-color: #333;
+    color: #f0f0f5;
+}
+
+body.dark-mode .main-header {
+    background-color: #1a1a1d;
+}
+
+body.dark-mode .suggestions {
+    background-color: #222;
+}
+
+body.dark-mode .contact-container {
+    background-color: #444;
+    color: #fff;
+}
+
+/* CSS para o navigation drawer e o botão */
+
+/* Botão do navigation drawer */
+.drawer-toggle {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 24px;
+    background: none;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    z-index: 1001;
+}
+
+/* Estilos do Navigation Drawer */
+.drawer {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    top: 0;
+    left: -250px; /* Oculto por padrão */
+    background-color: #333;
+    overflow-x: hidden;
+    transition: 0.3s;
+    padding-top: 60px;
+    z-index: 1000;
+}
+
+.drawer a {
+    padding: 8px 16px;
+    text-decoration: none;
+    font-size: 1.2em;
+    color: #f1f1f1;
+    display: block;
+    transition: 0.3s;
+}
+
+.drawer a:hover {
+    color: #ff6600;
+}
+
+.drawer-close {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 36px;
+    color: #f1f1f1;
+    cursor: pointer;
+}
+
+.drawer-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+}
+
+/* Mostrar o drawer */
+.drawer-open {
+    left: 0;
+}
+
+.drawer-open + .drawer-overlay {
+    display: block;
+}
+
+/* Spinner */
+.spinner-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px; /* Ajuste conforme o tamanho das imagens */
+    position: relative;
+}
+
+.spinner {
+    border: 8px solid #f3f3f3;
+    border-top: 8px solid #ff6600;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Ocultar o spinner quando não estiver carregando */
+.spinner-container.hidden {
+    display: none;
+}
